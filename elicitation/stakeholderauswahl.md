@@ -19,7 +19,7 @@ der Studierenden helfen?
 **Benötigte Informationen:** Welche personenbezogenen Daten dürfen abgefragt werden? Wie lange dürfen diese Daten gespeichert werden? Wie werden personenbezogene Daten geschützt bzw. in welchem Ausmaß?  
 
 
-**Stakeholder:** Expert:innen für Barrierefreheit und Inklusion  
+**Stakeholder:** Expert:innen für Barrierefreiheit und Inklusion  
 **Relevanz:** Für die kulturelle Barrierefreiheit.  
 **Benötigte Informationen:** Welche Sprachen sollten mindestens abgedeckt werden? Gibt es spezielle Anforderungen für Personen mit besonderen Bedürfnissen?  
 
