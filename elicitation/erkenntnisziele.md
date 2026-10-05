@@ -1,4 +1,4 @@
-**Erkentnissziele**
+**Erkenntnisziele**
 
 **1. Studierende**
 Wir möchten verstehen, in welchen Situationen Studierende während ihres Studiums Unterstützung bei der Selbstorganisation benötigen und wie sie aktuell mit diesen Situationen umgehen.
