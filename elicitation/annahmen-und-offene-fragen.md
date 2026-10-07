@@ -8,4 +8,7 @@ Die einzelnen Punkte sind als Issues im Repository angelegt.
 
 **Offene Fragen**  
 [Question-001 (#2)](https://github.com/Sabine-FH/study-budy-team-07/issues/2): Was ist ein "kritischer Lernrückstand" und wer legt das fest?  
-[Question-002 (#4)](https://github.com/Sabine-FH/study-budy-team-07/issues/4): Wie lange dürfen Daten für den Study Buddy gespeichert werden?
+[Question-002 (#4)](https://github.com/Sabine-FH/study-budy-team-07/issues/4): Wie lange dürfen Daten für den Study Buddy gespeichert werden?  
+[Question-003 (#6)](https://github.com/Sabine-FH/study-budy-team-07/issues/6): Werden Ferien und Dinge wie Dienstreisen, Ausfälle durch Krankheit in der Inaktivität berücksichtigt?
+
+
