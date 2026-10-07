@@ -49,8 +49,22 @@
 ***
 **REQ-003: Erkennt das System einen kritischen Lernrückstand, soll automatisch die Studiengangsleitung informiert werden.**
 - Welche Annahmen wurden hier getroffen?
+  - Ein "kritischer Rückstand" kann festgestellt werden und vom System fehlerfrei erkannt werden.
+  - Die Verarbeitung und Weitergabe von solchen sensiblen Daten ist rechtlich zulässig.
+  - Für die Studierenden ist es kein Problem, dass mit diesen Daten gearbeitet wird.
+  - Die Studiengangsleitung hat die Kapazitäten auf jeden kritischen Lernrückstand zu reagieren. 
 - Welche Informationen fehlen?
+  - Wie wird ein kritischer Rückstand definiert?
+  - Ist es rechtlich gesehen (DSGVO) in Ordnung personenbezogene Learning-Analytics-Daten weiterzuverarbeiten?
+  - Ab welchem Zeitpunkt ist es Kontrolle bzw. Überwachung?
+  - Wie kann die Studiengangsleitung unterstützen?
+  - Sind die personellen Kapazitäten vorhanden um mehrere Studierende gleichzeitig zu unterstützen?
 - Von welchen Stakeholder*innen müssten diese Informationen kommen?
+  - Studierende
+  - Lehrende
+  - Datenschutz- und Informationssicherheitsverantwortliche
 - Mit welchen Fragen könnten Sie die Annahmen überprüfen?
-
+  - Ist eine automatisierte Eskalation und dementsprechende Weitergabe an Lehr- oder Leitungspersonal rechtlich zulässig? (Stakeholder: Datenschutz- und Informationssicherheitsverantwortliche)
+  - Sind im regulären Studienbetrieb bei den Lehrenden bzw. der Studiengangsleitung die Kapazitäten vorhanden auf automatisierte Warnmeldungen zu einzelnen Studierenden zu reagieren? (Stakeholder: Lehrende / Stakeholder: Studiengangsleitung)
+  - Würde die Nutzung des Online Campus beeinflusst werden, wenn Lernrückstände automatisch an die Leitung gemeldet wird? (Stakeholder: Studierende) 
   
