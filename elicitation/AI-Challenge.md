@@ -13,15 +13,15 @@
   - Werden Ferien berücksichtigt?
   - Wird immer über den Online Campus gelernt?
   - Werden Dateien heruntergeladen um offline zu lernen? 
-- Von welchen Stakeholder*innen müssten diese Informationen kommen?
+- Von welchen Stakeholder:innen müssten diese Informationen kommen?
   - Studierende
   - Lehrende
   - IT / Betreiber:innen des Online Campus 
 - Mit welchen Fragen könnten Sie die Annahmen überprüfen?
-  - Gibt es Phasen im Semester, in denen eine Woche oder länger keine Aktivität im Online Campus passiert? (Stakeholder: Studierende)
-  - Fühlen sich automatisierte Erinnerungen nach sieben Tagen als hilfreiche oder unerwünschte Kontrolle an? (Stakeholder: Studierende)
-  - Welche Benutzeraktionen können mit dem aktuellen System verlässlich gemessen werden um eine Inaktivität festzulegen? (Stakeholder: IT / Betreiber:innen des Online Campus)
-  - Gibt es einen Zeitraum ab dem es für Studierende kritisch wird, wenn Lernaktivitäten ausbleiben? (Stakeholder: Lehrende) 
+  - Gibt es Phasen im Semester, in denen eine Woche oder länger keine Aktivität im Online Campus passiert? (Stakeholder:innen: Studierende)
+  - Fühlen sich automatisierte Erinnerungen nach sieben Tagen als hilfreiche oder unerwünschte Kontrolle an? (Stakeholder:innen: Studierende)
+  - Welche Benutzer:innenaktionen können mit dem aktuellen System verlässlich gemessen werden um eine Inaktivität festzulegen? (Stakeholder:innen: IT / Betreiber:innen des Online Campus)
+  - Gibt es einen Zeitraum ab dem es für Studierende kritisch wird, wenn Lernaktivitäten ausbleiben? (Stakeholder:innen: Lehrende) 
   
 ***
 **REQ-002: Studierende sollen jeden Montag eine personalisierte Übersicht Ihres Lernfortschritts erhalten.**
@@ -36,14 +36,14 @@
   - Kann das bestehende Online Campus-System die Daten in so einer Form abrufen?
   - Besteht die technische Möglichkeit diese Daten zu exportieren und automatisiert auszuschicken?
   - Welche Daten werden gebraucht um so eine personalisierte Übersicht zu gestalten? 
-- Von welchen Stakeholder*innen müssten diese Informationen kommen?
+- Von welchen Stakeholder:innen müssten diese Informationen kommen?
   - Studierende
   - IT / Betreiber:innen des Online Campus
   - Datenschutz- und Informationssicherheitsverantwortliche
 - Mit welchen Fragen könnten Sie die Annahmen überprüfen?
-  - Ab wann ist eine Übersicht über den Lernfortschritt motivierend und nicht stressend? (Stakeholder: Studierende) 
-  - Ist es systemtechnisch derzeit möglich, für jede:n Nutzer:in automatisiert eine wöchentliche Übersicht der Lernaktivitäten zu genererien. (Stakeholder: IT / Betreiber:innen des Online Campus)
-  - Welche konkreten personenbezogenen Daten aus dem Online Campus dürfen wir rechtlich überhaupt nutzen, um einen solchen individuellen Lernfortschritt zu berechnen? (Stakeholder: Datenschutz- und Informationssicherheitsverantwortliche) 
+  - Ab wann ist eine Übersicht über den Lernfortschritt motivierend und nicht stressend? (Stakeholder:innen: Studierende) 
+  - Ist es systemtechnisch derzeit möglich, für jede:n Nutzer:in automatisiert eine wöchentliche Übersicht der Lernaktivitäten zu genererien. (Stakeholder:innen: IT / Betreiber:innen des Online Campus)
+  - Welche konkreten personenbezogenen Daten aus dem Online Campus dürfen wir rechtlich überhaupt nutzen, um einen solchen individuellen Lernfortschritt zu berechnen? (Stakeholder:innen: Datenschutz- und Informationssicherheitsverantwortliche) 
 
 
 ***
@@ -59,12 +59,12 @@
   - Ab welchem Zeitpunkt ist es Kontrolle bzw. Überwachung?
   - Wie kann die Studiengangsleitung unterstützen?
   - Sind die personellen Kapazitäten vorhanden um mehrere Studierende gleichzeitig zu unterstützen?
-- Von welchen Stakeholder*innen müssten diese Informationen kommen?
+- Von welchen Stakeholder:innen müssten diese Informationen kommen?
   - Studierende
   - Lehrende
   - Datenschutz- und Informationssicherheitsverantwortliche
 - Mit welchen Fragen könnten Sie die Annahmen überprüfen?
-  - Ist eine automatisierte Eskalation und dementsprechende Weitergabe an Lehr- oder Leitungspersonal rechtlich zulässig? (Stakeholder: Datenschutz- und Informationssicherheitsverantwortliche)
-  - Sind im regulären Studienbetrieb bei den Lehrenden bzw. der Studiengangsleitung die Kapazitäten vorhanden auf automatisierte Warnmeldungen zu einzelnen Studierenden zu reagieren? (Stakeholder: Lehrende / Stakeholder: Studiengangsleitung)
-  - Würde die Nutzung des Online Campus beeinflusst werden, wenn Lernrückstände automatisch an die Leitung gemeldet wird? (Stakeholder: Studierende) 
+  - Ist eine automatisierte Eskalation und dementsprechende Weitergabe an Lehr- oder Leitungspersonal rechtlich zulässig? (Stakeholder:innen: Datenschutz- und Informationssicherheitsverantwortliche)
+  - Sind im regulären Studienbetrieb bei den Lehrenden bzw. der Studiengangsleitung die Kapazitäten vorhanden auf automatisierte Warnmeldungen zu einzelnen Studierenden zu reagieren? (Stakeholder:innen: Lehrende / Studiengangsleitung)
+  - Würde die Nutzung des Online Campus beeinflusst werden, wenn Lernrückstände automatisch an die Leitung gemeldet wird? (Stakeholder:innen: Studierende) 
   
