@@ -1,1 +1,1 @@
-![Stakeholder:inne-Map(stakelholderinnen-map.png)
+![Stakeholder:inne-Map(stakeholderinnen-map.png)
