@@ -4,9 +4,9 @@
 
 Wir haben die 15 Anforderungsentwürfe REQ-001 bis REQ-015 zuerst einzeln geprüft, dann untereinander verglichen und auf Widersprüche geprüft. Grundlage ist die Requirements Quality Checklist:
 
-- **Inhalt - Beschreiben wir das richtig? :** Vollständigkeit, Korrektheit/Adäquatheit, Notwendigkeit, keine vorzeitigen Entwurfsentscheidungen, Konsistenz, Überprüfbarkeit
+- **Inhalt - Beschreiben wir das Richtige? :** Vollständigkeit, Korrektheit/Adäquatheit, Notwendigkeit, keine vorzeitigen Entwurfsentscheidungen, Konsistenz, Überprüfbarkeit
 - **Dokumentation - Beschreiben wir es verständlich? :** Verständlichkeit, Eindeutigkeit (Requirements Smells, mehrere Sachverhalte in einem Satz), Dokumentationsregeln
-- **Abgestimmtheit - Ist es mit den beteiligten geklärt? :** Stakeholder:innen-Einbeziehung, Konfliktklärung, Abstimmung nach Änderungen
+- **Abgestimmtheit - Ist es mit den Beteiligten geklärt? :** Stakeholder:innen-Einbeziehung, Konfliktklärung, Abstimmung nach Änderungen
 
 Viele Anforderungen haben mehr als ein Problem. Wir nennen deshalb immer zuerst das wichtigste und erwähnen die anderen kurz dazu. Lösungen schreiben wir hier noch keine, es geht erstmal nur darum, die Fehler zu finden. Wo uns die Informationen fehlen, schreiben wir die offenen Punkte als Fragen auf. In Klammern steht jeweils, wen wir dazu fragen müssten.
 
@@ -92,7 +92,7 @@ Viele Anforderungen haben mehr als ein Problem. Wir nennen deshalb immer zuerst 
 - **Fehlerbeschreibung:** Die Anforderung widerspricht direkt REQ-008, wonach Benachrichtigungen unabhängig von den Einstellungen zugestellt werden müssen, und ebenso REQ-005. „Sämtliche“ und „jederzeit“ lassen keine Ausnahmen zu. *Weitere Mängel:* Was als „Benachrichtigung“ gilt, ist nicht definiert. Der Konflikt muss von den Stakeholder:innen geklärt werden (Abgestimmtheit – Konfliktklärung).
 - **Mögliche Konsequenz:** Das Entwicklungsteam muss selbst entscheiden, wie es den Widerspruch auflöst, obwohl das gar nicht seine Entscheidung ist. Studierende bekommen trotz Abmeldung Nachrichten oder verpassen wichtige Informationen.
 - **Fehlende Informationen:**
-  - Welche Arten von Benachrichtigungen soll es überhaupt geben?(Studierendenvertretung, Studienadministration)
+  - Welche Arten von Benachrichtigungen soll es überhaupt geben? (Studierendenvertretung, Studienadministration)
   - Welche davon sollen nicht abschaltbar sein, und wer entscheidet das? (Studierendenvertretung, Studienadministration)
 
 **REQ-008 – No Exceptions**
@@ -111,7 +111,7 @@ Viele Anforderungen haben mehr als ein Problem. Wir nennen deshalb immer zuerst 
 
 - **Qualitätsaspekt:** Abgestimmtheit
 - **Qualitätskriterium:** Stakeholder:innen-Einbeziehung und Konfliktklärung
-- **Fehlerbeschreibung:** Die Anforderung bildet nur das Interesse der Studiengangsleitung ab. Studierende möchten selbst entscheiden, wer Informationen über ihr Lernverhalten erhält, und die IT braucht klare Vorgaben für Zugriffsrechte. Dieser Konflikt („Unterstützen oder überwachen?“), den wir schon in unserer Stakeholder:innen-Analyse festgehalten haben, ist nicht geklärt. *Weitere Mängel:* Der Zweck ist unklar (Inhalt – Notwendigkeit). Außerdem sollen laut Datenschutz nur so viele Daten verwendet werden, wie für einen Zweck wirklich nötig sind. Ein Zugriff auf alles und jederzeit passt dazu nicht.
+- **Fehlerbeschreibung:** Die Anforderung bildet nur das Interesse der Studiengangsleitung ab. Studierende möchten selbst entscheiden, wer Informationen über ihr Lernverhalten erhält, und die IT braucht klare Vorgaben für Zugriffsrechte. Dieser Konflikt („Unterstützen oder überwachen?“) ist nicht geklärt. Weitere Mängel: Der Zweck ist unklar (Inhalt – Notwendigkeit). Außerdem sollen laut Datenschutz nur so viele Daten verwendet werden, wie für einen Zweck wirklich nötig sind. Ein Zugriff auf alles und jederzeit passt dazu nicht.
 - **Mögliche Konsequenz:** Rechtliche Risiken. Studierende fühlen sich überwacht und meiden den Study Buddy, damit verliert das System seinen Nutzen.
 - **Fehlende Informationen:**
   - Welchen Bedarf hat die Studiengangsleitung, und würden zusammengefasste, anonymisierte Daten reichen? (Studiengangsleitung)
@@ -134,10 +134,10 @@ Viele Anforderungen haben mehr als ein Problem. Wir nennen deshalb immer zuerst 
 
 - **Qualitätsaspekt:** Inhalt
 - **Qualitätskriterium:** Konsistenz mit verbindlichen Rahmenbedingungen
-- **Fehlerbeschreibung:** Die Anforderung widerspricht der verbindlichen Vorgabe aus dem Plot Twist, das bestehende Authentifizierungssystem der Hochschule zu verwenden. Anders als diese begründete Vorgabe legt REQ-011 eine Lösung ohne Begründung fest. *Weitere Mängel:* Kein Bedarf für ein eigenes Konto ist dokumentiert (Inhalt – Notwendigkeit).
+- **Fehlerbeschreibung:** Die Anforderung widerspricht der verbindlichen Rahmenbedingung, dass das bestehende Authentifizierungssystem der Hochschule verwendet werden muss. Anders als diese begründete Vorgabe legt REQ-011 eine Lösung ohne Begründung fest. *Weitere Mängel:* Kein Bedarf für ein eigenes Konto ist dokumentiert (Inhalt – Notwendigkeit).
 - **Mögliche Konsequenz:** Ablehnung durch die IT und Nacharbeit. Zusätzliche Passwörter erhöhen das Sicherheitsrisiko und die Nutzungshürde.
 - **Fehlende Informationen:**
-  - Woher stammt die Anforderung, und steckt ein legitimer Bedarf dahinter (z. B. Nutzer:innen ohne Hochschulkonto)?(IT & Online-Campus-Team)
+  - Woher stammt die Anforderung, und steckt ein legitimer Bedarf dahinter (z. B. Nutzer:innen ohne Hochschulkonto)? (IT & Online-Campus-Team)
   - Welche Benutzerinformationen und Rollen stellt das bestehende System bereit? (IT & Online-Campus-Team)
 
 **REQ-012 – The Universal Recommendation**
@@ -180,7 +180,7 @@ Viele Anforderungen haben mehr als ein Problem. Wir nennen deshalb immer zuerst 
 - **Qualitätskriterium:** Keine vorzeitigen Entwurfsentscheidungen
 - **Fehlerbeschreibung:** Die Technologie („KI-Modell“) ist festgelegt, bevor das Problem verstanden ist. Ob eine automatische Entscheidung überhaupt die geeignete Lösung ist, wurde nicht geprüft. *Weitere Mängel:* Das System soll ohne menschliche Beteiligung über Menschen entscheiden, ohne dass Studierende, Lehrende und Datenschutz einbezogen wurden (Abgestimmtheit). Wie bei REQ-001 ist unbelegt, dass Nutzungsdaten Betreuungsbedarf abbilden.
 - **Mögliche Konsequenz:** Schwer nachvollziehbare Fehlentscheidungen und Benachteiligung bestimmter Gruppen. Dazu kommen Vertrauensverlust, rechtliche Risiken und hoher Aufwand.
-- **Offene Fragen:**
+- **Fehlende Informationen:**
   - Welche Unterstützungsaufgaben gibt es heute, und wer übernimmt sie aktuell? (Lehrendenvertretung, Studiengangsleitung)
   - Soll das System entscheiden oder nur Hinweise für eine Person liefern? (Studiengangsleitung, Datenschutz & Informationssicherheit)
   - Welche Daten dürfen dafür verwendet werden? (Datenschutz & Informationssicherheit)
@@ -192,7 +192,7 @@ Viele Anforderungen haben mehr als ein Problem. Wir nennen deshalb immer zuerst 
 - **REQ-007 widerspricht REQ-008 und REQ-005**: REQ-007 will, dass man alle Benachrichtigungen abschalten kann, REQ-008 und REQ-005 schreiben Pflichtbenachrichtigungen vor. Es fehlt eine abgestimmte Einteilung der Benachrichtigungsarten.
 - **REQ-013 widerspricht möglicherweise REQ-008**: REQ-013 will Terminänderungen still übernehmen, REQ-008 verlangt eine Benachrichtigung bei kritischen Studienereignissen. Ob eine Terminänderung ein solches Ereignis ist, ist nicht geklärt.
 
-**Weitere Zusammenhänge zwischen Requirements**
+**Weitere Zusammenhänge zwischen Requirements**  
 
 Diese Punkte sind keine direkten Widersprüche, zeigen aber Überschneidungen und Abhängigkeiten, die geklärt werden müssen.
 
@@ -200,7 +200,7 @@ Diese Punkte sind keine direkten Widersprüche, zeigen aber Überschneidungen un
 **REQ-003, REQ-006, REQ-009 und REQ-015**: Weitergabe individueller Lerndaten, der Konflikt zwischen Unterstützung und Überwachung ist nirgends geklärt.
 **REQ-003, REQ-005 und REQ-013 hängen von REQ-010 ab**: Alle brauchen Fristdaten aus REQ-010, deren Qualität ungeklärt ist.
 
-**Befunde zur gesamten Anforderungen**
+**Befunde zu allen Anforderungen gemeinsam**
 
 - **Vollständigkeit:** Es gibt keine Datenschutzanforderung, obwohl mehrere Anforderungen personenbezogene Lerndaten verarbeiten. Barrierefreiheit ist nur als Einzeiler vorhanden.
 - **Dokumentationsregeln und Verfolgbarkeit:** Keine Anforderung hat Quelle, Begründung, Priorität, Status oder Akzeptanzkriterien.
