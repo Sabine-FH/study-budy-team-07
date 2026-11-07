@@ -1,6 +1,6 @@
 ### **Final Requirements – Study Buddy**
 
-**1. Einleitung**
+### **1. Einleitung**
 
 In diesem Dokument werden fünf ausgewählte Anforderungen für den Study Buddy abschließend überarbeitet. Als Grundlage dienen die Ergebnisse aus Teil 3 sowie der Vergleich zwischen der Human- und der AI-Version.
 
