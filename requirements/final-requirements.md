@@ -86,7 +86,7 @@ Die ursprüngliche Anforderung umfasst vier unterschiedliche Funktionen, die get
 | ID | Vorläufiger Anforderungsentwurf | Noch zu klären |
 | :--- | :--- | :--- |
 | REQ-003a | Das System soll Studierenden ihre bevorstehenden Abgaben anzeigen können. | Was gilt als bevorstehend? Woher stammen die Daten und wie werden sie aktualisiert? |
-| REQ-003b | Das System soll personalisierte Erinnerungen an Studierende versenden kön | Nach welchen Regeln werden Erinnerungen erstellt und versendet? |
+| REQ-003b | Das System soll personalisierte Erinnerungen an Studierende versenden können. | Nach welchen Regeln werden Erinnerungen erstellt und versendet? |
 | REQ-003c | Das System soll den Lernfortschritt von Studierenden analysieren können. | Welche Daten und Messgrößen werden verwendet und welchem Zweck dient die Analyse? |
 | REQ-003d | Das System soll Lehrende über mögliche Schwierigkeiten von Studierenden informieren können. | Was gilt als Schwierigkeit und welche Informationen dürfen an Lehrende weitergegeben werden? |
 
