@@ -199,7 +199,7 @@ Die AI Version ist konkreter formuliert und enthält vorläufige Akzeptanzkriter
 | **Gesamt** | **14/25** | **19/25** |
 
 **Begründung:**
-Die Human Version ist einfacher und verständlicher formuliert als das Original. Allerdings sind die Begriffe "einfach" und "verständlich" nicht wirklich subjektiv und auch nicht messbar. Außerdem wird die ursprüngliche Anforderung an die Geschwindigkeit nicht mehr berücksichtigt.  
+Die Human Version ist einfacher und verständlicher formuliert als das Original. Allerdings sind die Begriffe "einfach" und "verständlich" noch immer subjektiv und auch nicht messbar. Außerdem wird die ursprüngliche Anforderung an die Geschwindigkeit nicht mehr berücksichtigt.  
 Die AI Version erkennt, dass die ursprünglichen Anforderungen nicht ausreichend definiert sind und keine überprüfbaren Kriterien vorliegen. Sie erfindet keine konkreten Werte, sondern zeigt auf, welche Informationen noch benötigt werden. Allerdings liefert auch die KI noch keine vollständig überprüfbare Anforderung, sondern nur eine Vorlage mit Platzhaltern.  
 **Fazit:** Die AI Version ist in diesem Fall hilfreicher, weil sie die fehlenden Informationen genauer identifiziert und unbegründete Annahmen vermeidet. Die Human Version ist kürzer und verständlicher, behebt aber nicht alle Qualitätsprobleme.  
 
@@ -215,7 +215,7 @@ Die AI Version erkennt, dass die ursprünglichen Anforderungen nicht ausreichend
 | **Gesamt** | **12/25** | **19/25** |
 
 **Begründung:**
-Die Human Version konzentriert sich auf die Anzeige bevorstehender Abgabetermine und ist dadurch einfacher und verständlicher formuliert. Allerdings werden die anderen drei Funktionen nicht mehr berücksichtigt. Außerdem ist nicht geklärt, ob die benötigten Daten überhaupt zur Verfügung stehen und was genau als bevorstehender Abgabetermin gilt.  
+Die Human Version konzentriert sich auf die Anzeige bevorstehender Abgabetermine und ist dadurch einfacher und verständlicher formuliert. Damit ist es zwar einfacher formuliert, arbeitet die anderen drei Funktionen jedoch nicht als eigenständige Anforderungen aus. Außerdem ist nicht geklärt, ob die benötigten Daten überhaupt zur Verfügung stehen und was genau als bevorstehender Abgabetermin gilt.  
 Die AI Version teilt die ursprüngliche Anforderung in vier einzelne Anforderungen auf und berücksichtigt dadurch alle Funktionen. Zusätzlich werden offene Fragen und mögliche Datenschutzprobleme erkannt, insbesondere bei der Weitergabe von Informationen an Lehrende. Allerdings sind auch die KI-Anforderungen noch nicht vollständig überprüfbar und verwenden teilweise verpflichtende Formulierungen, obwohl die Funktionen noch nicht bestätigt wurden.  
 **Fazit:** Die AI Version ist insgesamt vollständiger und berücksichtigt mehr mögliche Probleme. Die Human Version ist zwar einfacher formuliert, lässt aber wichtige Funktionen weg. Beide Versionen benötigen noch weitere Klärungen, bevor verbindliche Anforderungen entstehen können.  
 
@@ -223,18 +223,17 @@ Die AI Version teilt die ursprüngliche Anforderung in vier einzelne Anforderung
 
 | Bewertungskriterium | Human | AI |
 |---|:---:|:---:|
-| Fachliche Angemessenheit | 3 | 4 |
+| Fachliche Angemessenheit | 4 | 4 |
 | Eindeutigkeit und Verständlichkeit | 3 | 4 |
 | Vollständigkeit und Überprüfbarkeit | 2 | 2 |
-| Umgang mit Annahmen | 2 | 5 |
-| Abstimmung und Konflikte | 1 | 4 |
-| **Gesamt** | **11/25** | **19/25** |
+| Umgang mit Annahmen | 4 | 5 |
+| Abstimmung und Konflikte | 4 | 4 |
+| **Gesamt** | **17/25** | **19/25** |
 
 **Begründung:**
-Die Human Version formuliert die Anforderung verständlicher und erkennt, dass kritische Studienereignisse definiert werden müssen. Allerdings wird bereits vorausgesetzt, dass kritische Benachrichtigungen nicht deaktiviert werden dürfen. Dadurch wird eine Entscheidung getroffen, obwohl der Konflikt mit REQ-007 noch nicht geklärt wurde.  
-Die AI Version erkennt ebenfalls, dass kritische Ereignisse und Benachrichtigungsregeln noch definiert werden müssen. Sie berücksichtigt zusätzlich die Interessen der Studierenden und mögliche Konflikte mit individuellen Einstellungen. Positiv ist, dass keine verpflichtenden Ausnahmen festgelegt werden, bevor deren Notwendigkeit geklärt wurde.  
-Allerdings ist auch die AI Version noch nicht vollständig überprüfbar, da konkrete Benachrichtigungsregeln und Akzeptanzkriterien fehlen.  
-**Fazit:** Die AI Version ist insgesamt besser, weil sie keine unbegründete Entscheidung über verpflichtende Benachrichtigungen trifft. Die Human Version ist verständlich formuliert, berücksichtigt den bestehenden Konflikt jedoch nicht ausreichend.  
+Die Human Version formuliert die Anforderung verständlicher und erkennt, dass kritische Studienereignisse definiert werden müssen. Zusätzlich wird der Konflikt mit REQ-007 berücksichtigt und offengelassen, ob bestimmte Benachrichtigungen verpflichtend sein müssen.  
+Die AI Version erkennt ebenfalls die fehlenden Definitionen und geht genauer auf die notwendigen Abstimmungen und möglichen Konflikte ein. Sie vermeidet unbegründete Entscheidungen und weist darauf hin, dass noch keine überprüfbaren Akzeptanzkriterien festgelegt werden können.     
+**Fazit:** Die AI Version ist etwas ausführlicher und berücksichtigt mehr offene Fragen. Die Human Version erkennt aber ebenfalls die wesentlichen Probleme und trifft keine unbegründete Entscheidung über verpflichtende Benachrichtigungen.  
 
 ### REQ-011 – The New Login
 
