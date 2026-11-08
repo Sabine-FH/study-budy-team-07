@@ -25,8 +25,8 @@ Verbesserung: Der Study Buddy muss das bereits bestehende Authentifizierungssyst
 
 ### KI-Version
 
-* **Verwendetes Modell:**
-* **Datum:**
+* **Verwendetes Modell:** GPT-6
+* **Datum:** 07.11.2026 - 19:27
 * **Verwendeter Prompt:** Du bist Requirements Engineer und überprüfst Anforderungsentwürfe für den Digital Study Buddy, ein digitales Unterstützungssystem für Studierende einer Fernhochschule. Analysiere jede Anforderung anhand der Qualitätsaspekte Inhalt, Dokumentation und Abgestimmtheit. 1. Identifiziere konkrete Qualitätsmängel und begründe sie. 2. Formuliere eine verbesserte Anforderung, soweit die vorliegenden Informationen dies erlauben. 3. Erfinde keine Stakeholderbedürfnisse, Interviewergebnisse, rechtlichen Freigaben oder technischen Rahmenbedingungen. 4. Kennzeichne fehlende Informationen, unbegründete Annahmen und notwendige Abstimmungen ausdrücklich. 5. Schlage geeignete Akzeptanzkriterien nur vor, wenn diese fachlich begründbar sind. 6. Gib für jede Anforderung den Status REWRITE, INVESTIGATE oder RECONSIDER an. Hier sind die Anforderungen: [Anforderungen: REQ-001, REQ-002, REQ-003, REQ-008 und REQ-011]
 
 Requirements Review – Digital Study Buddy
