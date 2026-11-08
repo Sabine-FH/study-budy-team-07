@@ -24,6 +24,11 @@ Verbesserung: Der Study Buddy muss das bereits bestehende Authentifizierungssyst
 ---
 
 ### KI-Version
+
+* **Verwendetes Modell:**
+* **Datum:**
+* **Verwendeter Prompt:** Du bist Requirements Engineer und überprüfst Anforderungsentwürfe für den Digital Study Buddy, ein digitales Unterstützungssystem für Studierende einer Fernhochschule. Analysiere jede Anforderung anhand der Qualitätsaspekte Inhalt, Dokumentation und Abgestimmtheit. 1. Identifiziere konkrete Qualitätsmängel und begründe sie. 2. Formuliere eine verbesserte Anforderung, soweit die vorliegenden Informationen dies erlauben. 3. Erfinde keine Stakeholderbedürfnisse, Interviewergebnisse, rechtlichen Freigaben oder technischen Rahmenbedingungen. 4. Kennzeichne fehlende Informationen, unbegründete Annahmen und notwendige Abstimmungen ausdrücklich. 5. Schlage geeignete Akzeptanzkriterien nur vor, wenn diese fachlich begründbar sind. 6. Gib für jede Anforderung den Status REWRITE, INVESTIGATE oder RECONSIDER an. Hier sind die Anforderungen: [Anforderungen: REQ-001, REQ-002, REQ-003, REQ-008 und REQ-011]
+
 Requirements Review – Digital Study Buddy
 1. Bewertungsgrundlage
 Die fünf Anforderungen werden anhand der drei Qualitätsaspekte Inhalt, Dokumentation und Abgestimmtheit überprüft.
@@ -252,3 +257,68 @@ Die AI Version formuliert die Anforderung zwar verständlich und lösungsneutral
 Auch bei der Human Version sind technische Details zur Integration und Berechtigungsverwaltung noch offen.  
 **Fazit:** Die Human Version ist diesmal besser, da sie die verbindliche IT-Vorgabe berücksichtigt und den Widerspruch der ursprünglichen Anforderung behebt. Die AI Version erkennt zwar das Problem einer unnötigen zusätzlichen Benutzerverwaltung, ignoriert jedoch eine bereits festgelegte Rahmenbedingung.  
 
+# Teil 5 – Reflexion: Wer hat gewonnen?
+
+### 1. Bei welchen Qualitätskriterien war die KI besonders hilfreich? Wo war sie weniger zuverlässig?
+
+Für den Vergleich haben wir die Punkte aus dem Quality Showdown pro Kriterium zusammengezählt (maximal 25 Punkte pro Kriterium):
+
+| Bewertungskriterium | Human | AI | Differenz (AI vs. Human) |
+| :--- | :---: | :---: | :---: |
+| Fachliche Angemessenheit | 20 | 16 | -4 |
+| Eindeutigkeit und Verständlichkeit | 16 | 19 | +3 |
+| Vollständigkeit und Überprüfbarkeit | 10 | 12 | +2 |
+| Umgang mit Annahmen | 19 | 19 | 0 |
+| Abstimmung und Konflikte | 16 | 15 | -1 |
+| **Gesamt** | **81** | **81** | **0** |
+
+Insgesamt steht es 81 zu 81, also unentschieden. Die KI hat bei Eindeutigkeit und Verständlichkeit (+3) und bei Vollständigkeit und Überprüfbarkeit (+2) besser abgeschnitten. Unsere Version lag bei der fachlichen Angemessenheit (+4) und knapp bei Abstimmung und Konflikte (+1) vorne. Ohne REQ-011, wo der KI die IT-Vorgabe im Prompt gefehlt hat, läge die KI mit 70 zu 57 Punkten vorne.
+
+**Wo die KI hilfreich war:**
+- Bei **REQ-003** hat die KI die Anforderung in vier einzelne Entwürfe aufgeteilt (REQ-003a bis REQ-003d) und für jeden Teil aufgeschrieben, was noch geklärt werden muss. Wir haben uns nur auf die Anzeige der Abgabetermine konzentriert und die anderen drei Funktionen zur späteren Prüfung zurückgestellt.
+- Bei **REQ-002** hat die KI erkannt, dass Begriffe wie „schnell“ und „benutzerfreundlich“ ohne messbare Kriterien nicht überprüfbar sind. Sie hat dabei keine erfundenen Reaktionszeiten eingesetzt.
+
+**Wo die KI weniger zuverlässig war:**
+- Bei **REQ-001** hat die KI selbst angemerkt, dass die sieben Tage nicht begründet sind. Trotzdem hat sie daraus eine „Muss“-Anforderung mit Akzeptanzkriterien gemacht.
+- Auch bei **REQ-003** hat sie für alle vier Teile „muss“ verwendet, obwohl noch nicht klar ist, ob diese Funktionen überhaupt gebraucht werden. Das betrifft vor allem REQ-003d (Informationen an Lehrende). Akzeptanzkriterien hat sie für 003b–d aber zu Recht nicht formuliert.
+
+### 2. Hat die KI Informationen ergänzt, die nicht in der Aufgabenstellung standen?
+
+Die KI hat kaum etwas erfunden. Bei REQ-002 hat sie statt konkreter Zeitwerte Platzhalter verwendet (`[Aufgabe]`, `[Zeitgrenze]`). Dinge wie Benachrichtigungskanäle oder Häufigkeiten (REQ-001, REQ-008) hat sie nicht festgelegt, sondern als offene Fragen aufgeschrieben.
+
+Das widerspricht der verbreiteten Erwartung, dass eine KI fehlende Details einfach ergänzt. Ihre Schwäche lag eher woanders: Sie hat fragwürdige Vorgaben aus dem Originaltext übernommen und nur besser formuliert, wie bei REQ-001.
+
+### 3. Hat die KI Anforderungen nur sprachlich verbessert oder auch deren fachliche Notwendigkeit hinterfragt?
+
+Das war unterschiedlich. Bei **REQ-008** und **REQ-011** hat die KI die Notwendigkeit hinterfragt und RECONSIDER gewählt. Bei REQ-008 hat sie zum Beispiel gefragt, ob es überhaupt eine fachliche oder rechtliche Grundlage dafür gibt, Studierende unabhängig von ihren Einstellungen zu benachrichtigen.
+
+Bei **REQ-001** hat sie dagegen nur die Formulierung verbessert („während sieben aufeinanderfolgender Tage keine Aktivität erfasst wurde“). Die eigentliche Annahme, dass fehlende Aktivität im Online Campus auf Unterstützungsbedarf hinweist, hat sie nicht hinterfragt. Genau das war in unserer `quality-review.md` der Hauptmangel, weil Studierende zum Beispiel auch offline lernen, im Urlaub sind oder erst kurz vor Abgaben aktiv werden.
+
+### 4. Wo war die Human Version überzeugender und warum?
+
+Unsere Version war vor allem bei der fachlichen Angemessenheit besser (20 zu 16 Punkte), bei Abstimmung und Konflikte nur knapp (16 zu 15).
+
+Der größte Unterschied war bei **REQ-011** (24 zu 11 Punkte). Aus Mission 2 wussten wir, dass der Study Buddy das bestehende Authentifizierungssystem der Hochschule verwenden muss. Deshalb haben wir ein separates Login ausgeschlossen. Die KI hat eine lösungsneutrale Anforderung formuliert und die Nutzung bestehender Zugänge als offene Frage behandelt. Das ist allerdings nicht ganz fair: Die KI hatte diese Vorgabe nicht im Prompt und konnte sie deshalb auch nicht kennen. Das zeigt, dass eine KI nur mit dem Kontext arbeiten kann, den man ihr gibt.
+
+Bei **REQ-001** waren wir vorsichtiger, weil wir die sieben Tage gestrichen haben. Fairerweise muss man sagen, dass die KI selbst geschrieben hat, dass sie die Frist übernimmt, „ohne sie als fachlich validiert darzustellen“.
+
+Unsere Version hatte aber auch Schwächen:
+- **REQ-002:** „einfach und verständlich bedienbar“ ist genauso subjektiv wie das Original und damit nicht überprüfbar (Überprüfbarkeit 1/5).
+- **REQ-003:** Wir haben nur die Anzeige der Abgabetermine ausformuliert und die anderen drei Funktionen zur Prüfung zurückgestellt, statt sie wie die KI einzeln aufzuschreiben (Vollständigkeit 2/5).
+
+### 5. Welche Rolle sollte generative KI künftig bei der Qualitätssicherung spielen?
+
+Das Unentschieden zeigt für uns, dass Mensch und KI unterschiedliche Stärken haben. Wir sehen die KI deshalb eher als Unterstützung beim Review, nicht als Entscheiderin.
+
+| Wofür die KI gut geeignet ist | Was beim Team bleiben sollte |
+| :--- | :--- |
+| Vage Begriffe finden („schnell“, „intuitiv“) | Prüfen, ob eine Anforderung überhaupt gebraucht wird |
+| Überladene Anforderungen aufteilen (wie bei REQ-003) | Vorgaben aus dem Projekt einbringen, die die KI nicht kennt (wie bei REQ-011) |
+| Vorlagen und erste Akzeptanzkriterien vorschlagen | Zielkonflikte klären (z. B. Unterstützung vs. Überwachung bei REQ-009) |
+
+Damit die KI bessere Ergebnisse liefert, sollte man ihr nicht nur die einzelnen Anforderungen geben, sondern auch:
+1. bereits getroffene Vorgaben (z. B. das bestehende Login),
+2. ein Glossar mit wichtigen Begriffen (z. B. was „Aktivität“ bedeutet) und die Ziele des Projekts,
+3. die Anweisung, bei fehlenden Informationen lieber INVESTIGATE zu wählen, statt „Muss“-Anforderungen festzulegen.
+
+Das passt auch zu **REQ-015** („The AI Knows Best“): So wie im Study Buddy nicht ein KI-Modell allein entscheiden sollte, welche Studierenden Betreuung brauchen, sollte die KI im Requirements Engineering nicht allein entscheiden, welche Anforderungen gültig sind. Die Verantwortung für Inhalte und Entscheidungen bleibt beim Team.
