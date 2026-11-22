@@ -107,7 +107,7 @@ Die Spalten Titel, Bezug und Status gibt es erst im Katalog. Stattdessen zeigt d
 | RAW-062 | Studierende müssen für den Study Buddy ein separates Benutzerkonto mit eigenem Passwort erstellen. | Funktional | System | Mission 3, REQ-011 | → SR-006 (Verworfen) |
 | RAW-063 | Das System muss jeder studierenden Person jederzeit die optimale individuelle Lernstrategie empfehlen. | Funktional | System | Mission 3, REQ-012 | → OQ-008 |
 | RAW-064 | Änderungen an Abgabeterminen müssen automatisch übernommen werden, ohne dass eine erneute Bestätigung erforderlich ist. | Funktional | System | Mission 3, REQ-013 | → OQ-009 |
-| RAW-065 | Der Study Buddy muss auf allen Geräten vollständig barrierefrei funktionieren. | Qualität | System | Mission 3, REQ-014 | → OQ-019 (ehemals SR-012, siehe E-009) |
+| RAW-065 | Der Study Buddy muss auf allen Geräten vollständig barrierefrei funktionieren. | Qualität | System | Mission 3, REQ-014 | → OQ-019 (ehemals SR-012, siehe E-008) |
 | RAW-066 | Ein KI-Modell muss anhand der Nutzungsdaten automatisch entscheiden, welche Studierenden zusätzliche Betreuung benötigen. | Funktional | System | Mission 3, REQ-015 | → OQ-010 |
 
 ## Mission 3 – Finale Anforderungen (final-requirements.md)
