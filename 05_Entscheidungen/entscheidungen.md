@@ -39,8 +39,8 @@
 **Grund:** Die Funktion selbst ist klar, offen sind nur Details. Die offenen Punkte stehen in der Liste offener Fragen.  
 
 ## E-007 Unklare Aussagen
-**Entscheidung:** Unklare oder widersprüchliche Aussagen kommen nicht in den Katalog, sondern auf die Liste offener Fragen (OQ-001 bis OQ-018).  
-**Beispiele:** REQ-001, 004, 005, 006, 008, 009, 012, 013, 015 und REQ-003d aus Mission 3. Die Anforderungen REQ-001 bis 003 aus Mission 1 entsprechen REQ-001, 005 und 006 aus Mission 3.  
+**Entscheidung:** Unklare oder widersprüchliche Aussagen kommen nicht in den Katalog, sondern auf die Liste offener Fragen (OQ-001 bis OQ-019).
+**Beispiele:** REQ-001, 004, 005, 006, 008, 009, 012, 013, 014, 015 und REQ-003d aus Mission 3. Die Anforderungen REQ-001 bis 003 aus Mission 1 entsprechen REQ-001, 005 und 006 aus Mission 3.  
 
 ## E-008 Anpassung nach Team-Review
 **Entscheidung:**
