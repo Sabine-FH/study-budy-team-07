@@ -103,11 +103,11 @@ Die Spalten Titel, Bezug und Status gibt es erst im Katalog. Stattdessen zeigt d
 | RAW-058 | Studierende müssen sämtliche Benachrichtigungen jederzeit deaktivieren können. | Funktional | User | Mission 3, REQ-007 | → UR-008 |
 | RAW-059 | Das System muss alle Studierenden unabhängig von ihren Einstellungen über kritische Studienereignisse benachrichtigen. | Funktional | System | Mission 3, REQ-008 | → OQ-006 |
 | RAW-060 | Die Studiengangsleitung muss jederzeit auf sämtliche individuellen Lernaktivitäten aller Studierenden zugreifen können. | Funktional | System | Mission 3, REQ-009 | → OQ-007 |
-| RAW-061 | Der Study Buddy muss alle relevanten Informationen zu Lehrveranstaltungen automatisch aus den bestehenden Systemen übernehmen. | Funktional | System | Mission 3, REQ-010 | → SR-011, SR-015 (präzisiert) |
+| RAW-061 | Der Study Buddy muss alle relevanten Informationen zu Lehrveranstaltungen automatisch aus den bestehenden Systemen übernehmen. | Funktional | System | Mission 3, REQ-010 | → SR-011 (präzisiert), SR-015 (präzisiert) |
 | RAW-062 | Studierende müssen für den Study Buddy ein separates Benutzerkonto mit eigenem Passwort erstellen. | Funktional | System | Mission 3, REQ-011 | → SR-006 (Verworfen) |
 | RAW-063 | Das System muss jeder studierenden Person jederzeit die optimale individuelle Lernstrategie empfehlen. | Funktional | System | Mission 3, REQ-012 | → OQ-008 |
 | RAW-064 | Änderungen an Abgabeterminen müssen automatisch übernommen werden, ohne dass eine erneute Bestätigung erforderlich ist. | Funktional | System | Mission 3, REQ-013 | → OQ-009 |
-| RAW-065 | Der Study Buddy muss auf allen Geräten vollständig barrierefrei funktionieren. | Qualität | System | Mission 3, REQ-014 | → SR-012 |
+| RAW-065 | Der Study Buddy muss auf allen Geräten vollständig barrierefrei funktionieren. | Qualität | System | Mission 3, REQ-014 | → OQ-019 (ehemals SR-012, siehe E-009) |
 | RAW-066 | Ein KI-Modell muss anhand der Nutzungsdaten automatisch entscheiden, welche Studierenden zusätzliche Betreuung benötigen. | Funktional | System | Mission 3, REQ-015 | → OQ-010 |
 
 ## Mission 3 – Finale Anforderungen (final-requirements.md)
@@ -115,7 +115,7 @@ Die Spalten Titel, Bezug und Status gibt es erst im Katalog. Stattdessen zeigt d
 | ID | Text | Art | Ebene | Quelle | Verbleib |
 |---|---|---|---|---|---|
 | RAW-067 | Das System soll Studierende bei zuvor definierten Anzeichen für möglichen Unterstützungsbedarf unterstützen können. | Funktional | System | Mission 3, final-requirements REQ-001 | → SR-004 |
-| RAW-068 | Das System soll Studierenden ihre bevorstehenden Abgaben anzeigen können. | Funktional | System | Mission 3, final-requirements REQ-003a | → SR-001 |
+| RAW-068 | Das System soll Studierenden ihre bevorstehenden Abgaben anzeigen können. | Funktional | System | Mission 3, final-requirements REQ-003a | → SR-001 (Verworfen, ersetzt durch SR-011) |
 | RAW-069 | Das System soll personalisierte Erinnerungen an Studierende versenden können. | Funktional | System | Mission 3, final-requirements REQ-003b | → SR-002 |
 | RAW-070 | Das System soll den Lernfortschritt von Studierenden analysieren können. | Funktional | System | Mission 3, final-requirements REQ-003c | → SR-003 |
 | RAW-071 | Das System soll Lehrende über mögliche Schwierigkeiten von Studierenden informieren können. | Funktional | System | Mission 3, final-requirements REQ-003d | → OQ-004 |
