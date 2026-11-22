@@ -8,4 +8,4 @@ Zu jeder Entscheidung halten wir fest:
 So bleibt nachvollziehbar, warum der Anforderungskatalog so aufgebaut ist.
 
 ## Dateien
-- `entscheidungen.md`: Entscheidungen zu Mission 04 (E-001 bis E-007)
+- `entscheidungen.md`: Entscheidungen zu Mission 04
